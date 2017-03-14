@@ -1,8 +1,14 @@
 URxvt*font: xft:Monospace:size=10
+urxvt*depth: 32
+
+URxvt*thickness: 5
+URxvt*scrollColor: #8c9440
+URxvt*scrollBar_right: true
+URxvt*scrollstyle: plain
 
 ! special
 *.foreground:   #c5c8c6
-*.background:   #1d1f21
+*.background:   [95]#1d1f21
 *.cursorColor:  #c5c8c6
 
 ! black
