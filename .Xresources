@@ -1,4 +1,5 @@
-URxvt*font: xft:Monospace:size=10
+URxvt*font: xft:Monospace:size=10,xft:Unifont:size=20
+URxvt.letterSpace: -1
 urxvt*depth: 32
 
 URxvt*thickness: 5
