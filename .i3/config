@@ -183,14 +183,14 @@ set $green              #B5BD56
 #}
 
 bar {
-	status_command /home/sqozz/build/i3blocks/i3blocks
-	position top
-	font pango:DejaVu Sans Mono, FontAwesome 8
-	colors {
-		statusline $green
-		separator $lightgrey
-		focused_workspace  $green $green $black
-	}
+#	status_command /home/sqozz/build/yabar/yabar
+#	position top
+#	font pango:DejaVu Sans Mono, FontAwesome 8
+#	colors {
+#		statusline $green
+#		separator $lightgrey
+#		focused_workspace  $green $green $black
+#	}
 }
 
 #class                  border      backgr.     text        split
@@ -204,6 +204,7 @@ new_window 1pixel
 new_float 1pixel
 
 # autostart
+exec /home/sqozz/build/yabar/yabar
 exec connman-gtk
 exec pasystray
 exec gajim
